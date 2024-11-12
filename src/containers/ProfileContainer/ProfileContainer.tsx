@@ -22,11 +22,11 @@ function ProfileContainer() {
         <br />
         with the team for the improvement of the business. For 
         <br />
-        me, it's fundamental to learn the process behind every 
+        me, it&apos;s fundamental to learn the process behind every 
         <br />
         project so the quality of the final product is the best it can
         <br />
-        be. I'm also always looking for an understanding of the 
+        be. I&apos;m also always looking for an understanding of the 
         <br />
         potentials and limitations in myself and the group so
         <br />
