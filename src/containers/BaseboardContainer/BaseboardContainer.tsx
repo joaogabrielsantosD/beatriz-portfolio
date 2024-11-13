@@ -10,7 +10,7 @@
                 <div className="w-full h-px bg-gray-dark"></div>
                 <div className="flex md:flex-row flex-col items-center justify-center">
                     <div className="font-main font-medium text-[48px] text-black text-center" style={{display:"flex", flexDirection:"column", alignItems:"center", flex:"1", margin:"88px", gap:"32px"}}>
-                        <h1>Let's make contact</h1>
+                        <h1>Let&apos;s make contact</h1>
 
                         <Link href="https://www.youtube.com/watch?v=CvNQ6ln91Lo"> {/* Mudar link */}
                             <motion.div
