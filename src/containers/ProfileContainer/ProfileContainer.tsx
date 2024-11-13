@@ -32,16 +32,6 @@ function ProfileContainer() {
         <br />
         nothing gets in the way of completing the task. 
       </p>
-
-      {/* <p className="font-main font-regular text-[20px] md:text-[25px] px-8 pt-12 pb-20">
-        My mission is, through strategy and
-        <br />
-        study, to reveal strengths and elevate
-        <br />
-        the brand, ensuring effective and
-        <br />
-        unique experiences.
-      </p> */}
     </>
   );
 }
