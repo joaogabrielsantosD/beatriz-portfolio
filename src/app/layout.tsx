@@ -14,7 +14,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           {children} {/* Aqui renderiza o conteúdo da página */}
         </main>
         <footer className="text-center mt-auto py-4 w-full">
-          <p>&copy; 2024 João Gabriel</p>
+          <p>&copy; 2024 Beatriz</p>
         </footer>
       </body>
     </html>

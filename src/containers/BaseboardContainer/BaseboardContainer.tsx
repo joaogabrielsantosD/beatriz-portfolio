@@ -12,7 +12,7 @@
                     <div className="font-main font-medium text-[48px] text-black text-center" style={{display:"flex", flexDirection:"column", alignItems:"center", flex:"1", margin:"88px", gap:"32px"}}>
                         <h1>Let&apos;s make contact</h1>
 
-                        <Link href="https://www.youtube.com/watch?v=CvNQ6ln91Lo"> {/* Mudar link */}
+                        <Link href="mailto:bgoncalves5122@gmail.com">
                             <motion.div
                                 aria-current="page"
                                 className="relative"
@@ -62,35 +62,35 @@
                     <div className="flex-grow-0 flex-shrink-0 w-[1px] bg-gray-dark self-stretch"></div>
                     
                     <div className="flex flex-1 flex-col space-y-8 items-start w-full my-8">
-                        <Link href="#my-work">
+                        <Link href="#ProfileContainer">
                             <h1 className="font-main font-medium text-[31px] text-black mx-8 hover:text-purple-600">
-                                My Work
+                                Home
                             </h1>
                         </Link>
 
                         <div className="block h-[1px] w-full bg-gray-dark"></div>
-                        <Link href="https://www.youtube.com/watch?v=fBR0gxGQtT8">
+                        <Link href="">
                             <h1 className="font-main font-medium text-[31px] text-black mx-8 hover:text-purple-600">
                                 About
                             </h1>
                         </Link>
 
                         <div className="block h-[1px] w-full bg-gray-dark"></div>
-                        <Link href="https://www.youtube.com/watch?v=fBR0gxGQtT8">
+                        <Link href="">
                             <h1 className="font-main font-medium text-[31px] text-black mx-8 hover:text-purple-600">
                                 Projects
                             </h1>
                         </Link>
 
                         <div className="block h-[1px] w-full bg-gray-dark"></div>
-                        <Link href="https://www.youtube.com/watch?v=fBR0gxGQtT8">
+                        <Link href="">
                             <h1 className="font-main font-medium text-[31px] text-black mx-8 hover:text-purple-600">
                                 Skills
                             </h1>
                         </Link>
                         
                         <div className="block h-[1px] w-full bg-gray-dark"></div>
-                        <Link href="https://www.youtube.com/watch?v=fBR0gxGQtT8">
+                        <Link href="mailto:bgoncalves5122@gmail.com">
                             <h1 className="font-main font-medium text-[31px] text-black mx-8 hover:text-purple-600">
                                 Contact
                             </h1>
@@ -98,7 +98,7 @@
                         
                         <div className="block h-[1px] w-full bg-gray-dark"></div>
                         <div className="flex space-x-4 mx-8">
-                            <Link href="https://www.linkedin.com/in/beatriz-calado-355393329/">
+                            <Link href="mailto:bgoncalves5122@gmail.com">
                                 <svg
                                     width="32"
                                     height="33"
@@ -137,4 +137,4 @@
         );
     }
 
-    export default BaseboardContainer;
+export default BaseboardContainer;
