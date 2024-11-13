@@ -89,14 +89,14 @@
                             </h1>
                         </Link>
                         
-                        <div className="block h-[0.5px] w-full bg-gray-dark"></div>
+                        <div className="block h-[1px] w-full bg-gray-dark"></div>
                         <Link href="https://www.youtube.com/watch?v=fBR0gxGQtT8">
                             <h1 className="font-main font-medium text-[31px] text-black mx-8 hover:text-purple-600">
                                 Contact
                             </h1>
                         </Link>
                         
-                        <div className="block h-[0.5px] w-full bg-gray-dark"></div>
+                        <div className="block h-[1px] w-full bg-gray-dark"></div>
                         <div className="flex space-x-4 mx-8">
                             <Link href="https://www.linkedin.com/in/beatriz-calado-355393329/">
                                 <svg
