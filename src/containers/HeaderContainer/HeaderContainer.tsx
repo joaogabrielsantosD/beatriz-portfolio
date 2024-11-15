@@ -1,8 +1,8 @@
 "use client";
-import HeaderButtonComponent from "@/components/HeaderButtonComponent/HeaderButtonComponent";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { useState } from "react";
+import HeaderButtonComponent from "@/components/HeaderButtonComponent/HeaderButtonComponent";
 
 function HeaderContainer() {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,13 +15,7 @@ function HeaderContainer() {
       transition={{ type: "spring", stiffness: 120, damping: 20, delay: 4 }}
     >
       <nav className="px-8 pt-8 pb-3">
-        <div className="flex items-center justify-between">
-          <Link href="/">
-            <span className="font-brand font-bold text-[31px] text-brand">
-              Marcella.
-            </span>
-          </Link>
-
+        <div style={{display:"flex", alignItems:"center", justifyContent:"center"}}>
           <button
             onClick={() => setIsOpen(!isOpen)}
             data-collapse-toggle="navbar-default"
@@ -51,7 +45,7 @@ function HeaderContainer() {
               <Link href="/about">
                 <HeaderButtonComponent name="About" />
               </Link>
-              <Link href="mailto:marcellacavalcanti.design@gmail.com">
+              <Link href="mailto:bgoncalves5122@gmail.com">
                 <HeaderButtonComponent name="Contact" />
               </Link>
 

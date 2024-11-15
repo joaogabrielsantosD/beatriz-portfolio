@@ -1,6 +1,7 @@
 "use client";
 import React from 'react';
 import '@/styles/globals.css'
+import HeaderContainer from '@/containers/HeaderContainer/HeaderContainer';
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -11,6 +12,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body className="min-h-screen flex flex-col" suppressHydrationWarning>
         <main className="flex-grow">
+          <HeaderContainer />
           {children} {/* Aqui renderiza o conteúdo da página */}
         </main>
         <footer className="text-center mt-auto py-4 w-full">
